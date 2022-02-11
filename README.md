@@ -118,10 +118,12 @@ sudo nano /etc/dphys-swapfile restart
 16. OpenCV는 Haar Feature를 설치를 
 
 # 출석, 얼굴 인식 기능 만들기
-## 버튼 만들기
+
+## vi ui.py를 만들기
 ```
 vi ui.py
 ```
+## 버튼 만들기
 ```PYTHON
 import sys
 from PyQt5.QtWidgets import QApplication, QHBoxLayout, QMainWindow, QPushButton, QVBoxLayout
