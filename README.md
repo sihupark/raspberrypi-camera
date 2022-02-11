@@ -119,10 +119,6 @@ sudo nano /etc/dphys-swapfile restart
 
 # 출석, 얼굴 인식 기능 만들기
 
-## vi ui.py를 만들기
-```
-vi ui.py
-```
 ## 버튼 만들기
 ```PYTHON
 import sys
@@ -162,4 +158,9 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = MyApp()
     sys.exit(app.exec_())
+    
+vi ui.py
 ```
+
+## 출석, 얼굴 인식 만들기
+```PYTHON
